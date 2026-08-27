@@ -3,7 +3,7 @@
 ![Development Status](https://img.shields.io/badge/status-active--development-orange.svg)
 
 The translating × dependencies integration: the `\.language` and `\.languages`
-keys and every [swift-translating](https://github.com/swift-foundations/swift-translating)
+keys and every [swift-translating](https://github.com/swift-compositions/swift-translating)
 surface that reads them.
 
 > One home for language as a dependency. The vocabulary types (`Language`,
@@ -28,7 +28,7 @@ surface that reads them.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/swift-foundations/swift-translating-dependencies.git", branch: "main")
+    .package(url: "https://github.com/swift-compositions/swift-translating-dependencies.git", branch: "main")
 ]
 ```
 

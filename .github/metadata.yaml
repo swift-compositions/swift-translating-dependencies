@@ -1,6 +1,6 @@
 description: The language and languages dependency keys plus the language-dependent swift-translating surface.
 topics:
-  - foundations
+  - compositions
   - dependencies
   - translating
 readme:

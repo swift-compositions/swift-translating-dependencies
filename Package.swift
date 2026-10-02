@@ -43,6 +43,9 @@ let package = Package(
                 .product(name: "Single Plural", package: "swift-translating"),
                 .product(name: "Translating", package: "swift-translating"),
                 .product(name: "Dependencies Test Support", package: "swift-dependencies"),
+            ],
+            swiftSettings: [
+                .unsafeFlags(["-Xfrontend", "-disable-cross-import-overlays"])
             ]
         ),
     ],

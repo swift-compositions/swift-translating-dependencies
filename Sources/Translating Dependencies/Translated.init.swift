@@ -118,14 +118,14 @@ extension Translated {
         nepali: A? = nil,
         northernNdebele: A? = nil,
         norwegian: A? = nil,
-        norwegianBokmal: A? = nil,
+        norwegianBokmål: A? = nil,
         norwegianNynorsk: A? = nil,
         occitan: A? = nil,
         ojibwe: A? = nil,
         oriya: A? = nil,
         oromo: A? = nil,
         ossetian: A? = nil,
-        pali: A? = nil,
+        pāli: A? = nil,
         persian: A? = nil,
         polish: A? = nil,
         portuguese: A? = nil,
@@ -176,7 +176,7 @@ extension Translated {
         uzbek: A? = nil,
         venda: A? = nil,
         vietnamese: A? = nil,
-        volapuk: A? = nil,
+        volapük: A? = nil,
         wallon: A? = nil,
         welsh: A? = nil,
         westernFrisian: A? = nil,
@@ -310,14 +310,14 @@ extension Translated {
         addIfIncluded(.nepali, nepali)
         addIfIncluded(.northernNdebele, northernNdebele)
         addIfIncluded(.norwegian, norwegian)
-        addIfIncluded(.norwegianBokmal, norwegianBokmal)
+        addIfIncluded(.norwegianBokmål, norwegianBokmål)
         addIfIncluded(.norwegianNynorsk, norwegianNynorsk)
         addIfIncluded(.occitan, occitan)
         addIfIncluded(.ojibwe, ojibwe)
         addIfIncluded(.oriya, oriya)
         addIfIncluded(.oromo, oromo)
         addIfIncluded(.ossetian, ossetian)
-        addIfIncluded(.pali, pali)
+        addIfIncluded(.pāli, pāli)
         addIfIncluded(.persian, persian)
         addIfIncluded(.polish, polish)
         addIfIncluded(.portuguese, portuguese)
@@ -368,7 +368,7 @@ extension Translated {
         addIfIncluded(.uzbek, uzbek)
         addIfIncluded(.venda, venda)
         addIfIncluded(.vietnamese, vietnamese)
-        addIfIncluded(.volapuk, volapuk)
+        addIfIncluded(.volapük, volapük)
         addIfIncluded(.wallon, wallon)
         addIfIncluded(.welsh, welsh)
         addIfIncluded(.westernFrisian, westernFrisian)

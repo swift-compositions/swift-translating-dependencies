@@ -32,7 +32,7 @@ extension [String] {
             }
 
             let allButLast = Array(self.dropLast())
-            let lastItem = self.last!
+            let lastItem = self[self.count - 1]
             return "\(allButLast.joined(separator: ", ")), \(localizedSeparator) \(lastItem)"
         })
     }

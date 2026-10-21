@@ -7,8 +7,7 @@ extension Translated {
     @available(
         *,
         deprecated,
-        message:
-            "Use dictionary literal syntax instead for better performance. This initializer calls the closure for every language in the dependency."
+        message: "Use dictionary literal syntax instead for better performance. This initializer calls the closure for every language in the dependency."
     )
     public init(
         _ closure: (Language) -> A

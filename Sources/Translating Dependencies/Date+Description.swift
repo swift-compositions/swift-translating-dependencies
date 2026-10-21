@@ -40,25 +40,22 @@ extension Date? {
         let format: (Language) -> String = { language in
             switch (dateStyle, timeStyle) {
             case (.none, .none):
-                if let date = self {
-                    return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
-                } else {
+                guard let date = self else {
                     return Date.placeholder()(language)
                 }
+                return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
 
             case (.none, _):
-                if let date = self {
-                    return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
-                } else {
+                guard let date = self else {
                     return "__:__))"
                 }
+                return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
 
             default:
-                if let date = self {
-                    return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
-                } else {
+                guard let date = self else {
                     return Date.placeholder()(language)
                 }
+                return date.description(dateStyle: dateStyle, timeStyle: timeStyle)(language)
             }
         }
 

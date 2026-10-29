@@ -19,7 +19,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/swift-compositions/swift-translating.git", branch: "main"),
+        .package(url: "https://github.com/swift-compositions/swift-translating.git", branch: "main", traits: ["TranslatingPlatform"]),
         .package(
             url: "https://github.com/swift-compositions/swift-dependencies.git",
             branch: "main"
